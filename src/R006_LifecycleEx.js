@@ -1,7 +1,7 @@
-import React, { Component} from "react";
+import React, { Component } from "react";
 
 class R006_LifecycleEx extends Component{
-    static getDeerivedStateFromProps(props, state) {
+    static getDerivedStateFromProps(props, state) {
         console.log('2. getDerivedStateFromProps Call :' + props.prop_value);
         return {};
     }
